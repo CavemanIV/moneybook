@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D755B34018EC14C5000D02B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D755B33F18EC14C5000D02B8 /* Foundation.framework */; };
+		D755B34218EC14C5000D02B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D755B34118EC14C5000D02B8 /* CoreGraphics.framework */; };
+		D755B34418EC14C5000D02B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D755B34318EC14C5000D02B8 /* UIKit.framework */; };
+		D755B34A18EC14C5000D02B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D755B34818EC14C5000D02B8 /* InfoPlist.strings */; };
+		D755B34C18EC14C5000D02B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D755B34B18EC14C5000D02B8 /* main.m */; };
+		D755B35018EC14C5000D02B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D755B34F18EC14C5000D02B8 /* AppDelegate.m */; };
+		D755B35318EC14C5000D02B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D755B35118EC14C5000D02B8 /* Main.storyboard */; };
+		D755B35618EC14C5000D02B8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D755B35518EC14C5000D02B8 /* MasterViewController.m */; };
+		D755B35918EC14C5000D02B8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D755B35818EC14C5000D02B8 /* DetailViewController.m */; };
+		D755B35B18EC14C5000D02B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D755B35A18EC14C5000D02B8 /* Images.xcassets */; };
+		D755B36218EC14C5000D02B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D755B36118EC14C5000D02B8 /* XCTest.framework */; };
+		D755B36318EC14C5000D02B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D755B33F18EC14C5000D02B8 /* Foundation.framework */; };
+		D755B36418EC14C5000D02B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D755B34318EC14C5000D02B8 /* UIKit.framework */; };
+		D755B36C18EC14C5000D02B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D755B36A18EC14C5000D02B8 /* InfoPlist.strings */; };
+		D755B36E18EC14C5000D02B8 /* Money_BookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D755B36D18EC14C5000D02B8 /* Money_BookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D755B36518EC14C5000D02B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D755B33418EC14C4000D02B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D755B33B18EC14C4000D02B8;
+			remoteInfo = "Money Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D755B33C18EC14C5000D02B8 /* Money Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D755B33F18EC14C5000D02B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D755B34118EC14C5000D02B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D755B34318EC14C5000D02B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D755B34718EC14C5000D02B8 /* Money Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Money Book-Info.plist"; sourceTree = "<group>"; };
+		D755B34918EC14C5000D02B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D755B34B18EC14C5000D02B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D755B34D18EC14C5000D02B8 /* Money Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Money Book-Prefix.pch"; sourceTree = "<group>"; };
+		D755B34E18EC14C5000D02B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D755B34F18EC14C5000D02B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D755B35218EC14C5000D02B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D755B35418EC14C5000D02B8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D755B35518EC14C5000D02B8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D755B35718EC14C5000D02B8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D755B35818EC14C5000D02B8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D755B35A18EC14C5000D02B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D755B36018EC14C5000D02B8 /* Money BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D755B36118EC14C5000D02B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D755B36918EC14C5000D02B8 /* Money BookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Money BookTests-Info.plist"; sourceTree = "<group>"; };
+		D755B36B18EC14C5000D02B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D755B36D18EC14C5000D02B8 /* Money_BookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Money_BookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D755B33918EC14C4000D02B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755B34218EC14C5000D02B8 /* CoreGraphics.framework in Frameworks */,
+				D755B34418EC14C5000D02B8 /* UIKit.framework in Frameworks */,
+				D755B34018EC14C5000D02B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755B35D18EC14C5000D02B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755B36218EC14C5000D02B8 /* XCTest.framework in Frameworks */,
+				D755B36418EC14C5000D02B8 /* UIKit.framework in Frameworks */,
+				D755B36318EC14C5000D02B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D755B33318EC14C4000D02B8 = {
+			isa = PBXGroup;
+			children = (
+				D755B34518EC14C5000D02B8 /* Money Book */,
+				D755B36718EC14C5000D02B8 /* Money BookTests */,
+				D755B33E18EC14C5000D02B8 /* Frameworks */,
+				D755B33D18EC14C5000D02B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D755B33D18EC14C5000D02B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D755B33C18EC14C5000D02B8 /* Money Book.app */,
+				D755B36018EC14C5000D02B8 /* Money BookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D755B33E18EC14C5000D02B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D755B33F18EC14C5000D02B8 /* Foundation.framework */,
+				D755B34118EC14C5000D02B8 /* CoreGraphics.framework */,
+				D755B34318EC14C5000D02B8 /* UIKit.framework */,
+				D755B36118EC14C5000D02B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D755B34518EC14C5000D02B8 /* Money Book */ = {
+			isa = PBXGroup;
+			children = (
+				D755B34E18EC14C5000D02B8 /* AppDelegate.h */,
+				D755B34F18EC14C5000D02B8 /* AppDelegate.m */,
+				D755B35118EC14C5000D02B8 /* Main.storyboard */,
+				D755B35418EC14C5000D02B8 /* MasterViewController.h */,
+				D755B35518EC14C5000D02B8 /* MasterViewController.m */,
+				D755B35718EC14C5000D02B8 /* DetailViewController.h */,
+				D755B35818EC14C5000D02B8 /* DetailViewController.m */,
+				D755B35A18EC14C5000D02B8 /* Images.xcassets */,
+				D755B34618EC14C5000D02B8 /* Supporting Files */,
+			);
+			path = "Money Book";
+			sourceTree = "<group>";
+		};
+		D755B34618EC14C5000D02B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D755B34718EC14C5000D02B8 /* Money Book-Info.plist */,
+				D755B34818EC14C5000D02B8 /* InfoPlist.strings */,
+				D755B34B18EC14C5000D02B8 /* main.m */,
+				D755B34D18EC14C5000D02B8 /* Money Book-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D755B36718EC14C5000D02B8 /* Money BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				D755B36D18EC14C5000D02B8 /* Money_BookTests.m */,
+				D755B36818EC14C5000D02B8 /* Supporting Files */,
+			);
+			path = "Money BookTests";
+			sourceTree = "<group>";
+		};
+		D755B36818EC14C5000D02B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D755B36918EC14C5000D02B8 /* Money BookTests-Info.plist */,
+				D755B36A18EC14C5000D02B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D755B33B18EC14C4000D02B8 /* Money Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D755B37118EC14C5000D02B8 /* Build configuration list for PBXNativeTarget "Money Book" */;
+			buildPhases = (
+				D755B33818EC14C4000D02B8 /* Sources */,
+				D755B33918EC14C4000D02B8 /* Frameworks */,
+				D755B33A18EC14C4000D02B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Money Book";
+			productName = "Money Book";
+			productReference = D755B33C18EC14C5000D02B8 /* Money Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D755B35F18EC14C5000D02B8 /* Money BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D755B37418EC14C5000D02B8 /* Build configuration list for PBXNativeTarget "Money BookTests" */;
+			buildPhases = (
+				D755B35C18EC14C5000D02B8 /* Sources */,
+				D755B35D18EC14C5000D02B8 /* Frameworks */,
+				D755B35E18EC14C5000D02B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D755B36618EC14C5000D02B8 /* PBXTargetDependency */,
+			);
+			name = "Money BookTests";
+			productName = "Money BookTests";
+			productReference = D755B36018EC14C5000D02B8 /* Money BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D755B33418EC14C4000D02B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					D755B35F18EC14C5000D02B8 = {
+						TestTargetID = D755B33B18EC14C4000D02B8;
+					};
+				};
+			};
+			buildConfigurationList = D755B33718EC14C4000D02B8 /* Build configuration list for PBXProject "Money Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D755B33318EC14C4000D02B8;
+			productRefGroup = D755B33D18EC14C5000D02B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D755B33B18EC14C4000D02B8 /* Money Book */,
+				D755B35F18EC14C5000D02B8 /* Money BookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D755B33A18EC14C4000D02B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755B35B18EC14C5000D02B8 /* Images.xcassets in Resources */,
+				D755B34A18EC14C5000D02B8 /* InfoPlist.strings in Resources */,
+				D755B35318EC14C5000D02B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755B35E18EC14C5000D02B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755B36C18EC14C5000D02B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D755B33818EC14C4000D02B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755B35018EC14C5000D02B8 /* AppDelegate.m in Sources */,
+				D755B35618EC14C5000D02B8 /* MasterViewController.m in Sources */,
+				D755B34C18EC14C5000D02B8 /* main.m in Sources */,
+				D755B35918EC14C5000D02B8 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D755B35C18EC14C5000D02B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755B36E18EC14C5000D02B8 /* Money_BookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D755B36618EC14C5000D02B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D755B33B18EC14C4000D02B8 /* Money Book */;
+			targetProxy = D755B36518EC14C5000D02B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D755B34818EC14C5000D02B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D755B34918EC14C5000D02B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D755B35118EC14C5000D02B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D755B35218EC14C5000D02B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D755B36A18EC14C5000D02B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D755B36B18EC14C5000D02B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D755B36F18EC14C5000D02B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D755B37018EC14C5000D02B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D755B37218EC14C5000D02B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money Book/Money Book-Prefix.pch";
+				INFOPLIST_FILE = "Money Book/Money Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D755B37318EC14C5000D02B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money Book/Money Book-Prefix.pch";
+				INFOPLIST_FILE = "Money Book/Money Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D755B37518EC14C5000D02B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Money Book.app/Money Book";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money Book/Money Book-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Money BookTests/Money BookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D755B37618EC14C5000D02B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Money Book.app/Money Book";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money Book/Money Book-Prefix.pch";
+				INFOPLIST_FILE = "Money BookTests/Money BookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D755B33718EC14C4000D02B8 /* Build configuration list for PBXProject "Money Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D755B36F18EC14C5000D02B8 /* Debug */,
+				D755B37018EC14C5000D02B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D755B37118EC14C5000D02B8 /* Build configuration list for PBXNativeTarget "Money Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D755B37218EC14C5000D02B8 /* Debug */,
+				D755B37318EC14C5000D02B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D755B37418EC14C5000D02B8 /* Build configuration list for PBXNativeTarget "Money BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D755B37518EC14C5000D02B8 /* Debug */,
+				D755B37618EC14C5000D02B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D755B33418EC14C4000D02B8 /* Project object */;
+}
